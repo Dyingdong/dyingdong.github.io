@@ -448,8 +448,8 @@
     <div class="relative">
         <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
         <div class="mx-auto max-w-7xl p-0">
-            <div class="relative sm:overflow-hidden">
-                <div class="fixed inset-x-0 top-0" style="z-index:-10">
+            <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
+                <div class="absolute inset-0">
                     
                     
                         
@@ -457,21 +457,14 @@
                         
                     
                     
-                        
-                            
-                        
                     
-                    
-                    <img class="w-full h-[1000px] object-cover m-0 nozoom" src="/background_main.svg" role="presentation" style="margin: 0">
+                    <img class="h-full w-full object-cover m-0 nozoom" src="/image.jpg" style="margin: 0">
                     <div
-                        class="absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
-                    </div>
-                    <div
-                        class="opacity-60 absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+                        class="absolute inset-0 bg-gradient-to-r from-primary-500 to-secondary-600 dark:from-primary-600 dark:to-secondary-800 mix-blend-multiply">
                     </div>
                     
                 </div>
-                <div class="relative px-1 py-1 flex flex-col items-center justify-center text-center">
+                <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
                     
                         
                         
@@ -485,11 +478,11 @@
                                 alt="Dyingdong" src="/author_hu64bc85fc3aa10f277fa8fdc32a17d2f8_27387_288x288_fill_q96_box_center.jpg" />
                         
                     
-                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
                         Dyingdong
                     </h1>
                     
-                    <h2 class="mt-0 mb-0 text-xl text-neutral-800 dark:text-neutral-300">
+                    <h2 class="mt-0 mb-0 text-xl text-neutral-300">
                         喜欢旅行，边走边拍
                     </h2>
                     
@@ -498,7 +491,7 @@
                         <div class="flex flex-wrap">
                             
                             
-                            <a class="px-1 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="https://www.xiaohongshu.com/user/profile/5bda6f1ea66ee400019355d2?xsec_token=YBfyIOSRqyvEamU2-MVWpdRsflLUSGb-nUefLAuw77vdE=&amp;xsec_source=app_share&amp;xhsshare=CopyLink&amp;appuid=5bda6f1ea66ee400019355d2&amp;apptime=1744297324&amp;share_id=5671f12f13ce455b877c1760484e9f0c" target="_blank"
+                            <a class="px-1 hover:text-primary-400 text-primary-300" href="https://www.xiaohongshu.com/user/profile/5bda6f1ea66ee400019355d2?xsec_token=YBfyIOSRqyvEamU2-MVWpdRsflLUSGb-nUefLAuw77vdE=&amp;xsec_source=app_share&amp;xhsshare=CopyLink&amp;appuid=5bda6f1ea66ee400019355d2&amp;apptime=1744297324&amp;share_id=5671f12f13ce455b877c1760484e9f0c" target="_blank"
                                 aria-label="Rednote" rel="me noopener noreferrer">
 
 </a>
@@ -507,7 +500,7 @@
                         </div>
                         
                     </div>
-                    <section class="prose dark:prose-invert"></section>
+                    <section class="prose prose-invert"></section>
                 </div>
             </div>
         </div>
@@ -695,16 +688,6 @@
 
 
 </section>
-
-<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
-<script>
-    window.addEventListener('scroll', function (e) {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var background_blur = document.getElementById('background-blur');
-        background_blur.style.opacity = (scroll / 300)
-    });
-</script>
-
 
   
 
