@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dyingdong的小窝</title>
-    <link>https://example.org/</link>
-    <description>Recent content on Dyingdong的小窝</description>
+    <title>学习笔记s on Dyingdong的小窝</title>
+    <link>https://example.org/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 学习笔记s on Dyingdong的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>© 2025 Dyingdong</copyright>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title></title>
-      <link>https://example.org/%E6%91%84%E5%BD%B1%E4%BD%9C%E5%93%81/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.org/%E6%91%84%E5%BD%B1%E4%BD%9C%E5%93%81/</guid>
-      <description></description>
-      
-    </item>
+    <atom:link href="https://example.org/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>蚂蚁风光摄影学习笔记</title>
